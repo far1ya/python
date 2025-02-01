@@ -1,0 +1,5 @@
+x=int(input("enter fisrt number:"))
+y=int(input("enter second number:"))
+z=int(input("enter third number:"))
+print("sum = ", x+y+z)
+print("product = ", x*y*z)
