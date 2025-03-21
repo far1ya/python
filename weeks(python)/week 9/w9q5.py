@@ -1,0 +1,6 @@
+n = int(input("Enter the number of elements in the list: "))
+arr = list(map(int, input(f"Enter {n} numbers separated by space: ").split()))
+max_value = max(arr)
+min_value = min(arr)
+print(f"\nThe maximum value in the list is: {max_value}")
+print(f"The minimum value in the list is: {min_value}")
